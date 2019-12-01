@@ -249,7 +249,7 @@ public class CalendarEvents {
                 "Tom Smith",
                 "Weekly every 1 week on Wednesday",
                 "No" ));
-        
+
         for(int i =0; i<List.size(); i++) {
             String actualones = driver.findElements(By.cssSelector("[class='responsive-block']>div>div>div")).get(i).getText();
             if(i==6){
