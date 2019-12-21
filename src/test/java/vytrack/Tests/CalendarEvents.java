@@ -23,7 +23,7 @@ public class CalendarEvents {
 
     @BeforeMethod
     public void setup() {
-        driver = BrowserFactory.getDriver("chrome");
+        driver = BrowserFactory.getDriver("safari");
         driver.get("https://qa1.vytrack.com/");
         driver.manage().window().fullscreen();
         wait = new WebDriverWait(driver, 10);
